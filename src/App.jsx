@@ -1,16 +1,16 @@
 import './css/App.css'
 import './css/reset.css'
-// import SayHi from './components/SayHi.jsx'
-import TechTools from './components/techTools.jsx'
-import Works from './components/Works.jsx'
-import Reviews from './components/Revievs.jsx'
-import Contacts from './components/Contacts.jsx'
+import SayHi from './components/SayHi';
+import TechTools from './components/TechTools';
+import Works from './components/Works';
+import Reviews from './components/Revievs';
+import Contacts from './components/Contacts';
 
 function App() {
 
   return (
     <>
-      {/* <SayHi /> */}
+      <SayHi />
       <TechTools/>
       <Works/>
       <Reviews/>
