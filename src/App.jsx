@@ -1,6 +1,6 @@
 import './css/App.css'
 import './css/reset.css'
-import Sayhi from './components/sayhi.jsx'
+import Sayhi from './components/Sayhi.jsx'
 import TechTools from './components/techTools.jsx'
 import Works from './components/Works.jsx'
 import Reviews from './components/Revievs.jsx'
