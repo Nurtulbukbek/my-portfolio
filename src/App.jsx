@@ -1,6 +1,6 @@
 import './css/App.css'
 import './css/reset.css'
-import SayHi from './components/sayHi'
+import Sayhi from './components/sayhi'
 import TechTools from './components/techTools'
 import Works from './components/Works'
 import Reviews from './components/Revievs'
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <SayHi />
+      <Sayhi />
       <TechTools/>
       <Works/>
       <Reviews/>
