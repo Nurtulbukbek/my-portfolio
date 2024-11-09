@@ -1,0 +1,33 @@
+import "../css/contacts.css"
+function Contacts() {
+
+    return(
+        <>
+            <div className="container">
+                <div className="worksPart">
+                    <div className="textContacts">
+                        <h1 className="texth1">
+                            Have a <span className="yellowText">questions?</span>
+                        </h1>
+                        <h1 className="texth2">
+                            You can <span className="yellowText">email</span> me at:
+                        </h1>
+                        <h1 className="texth1">
+                            owezresul0@gmail.com
+                        </h1>
+                        <h1 className="texth2">
+                            <span className="yellowText">or</span>
+                        </h1>
+                        <div className="socialMedia">
+                            <img src="../telegram.png" alt="" className="socialItem" />
+                            <a href="https://www.instagram.com/nurtulbek/profilecard/?igsh=MXU5ZW5weDhqNmpzZw=="><img src="../instagram.png" alt="" className="socialItem" /></a>
+                            <a href="https://github.com/Nurtulbukbek"><img src="../github.png" alt="" className="socialItem" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Contacts

@@ -1,0 +1,31 @@
+.textContacts {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.texth1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texth2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.yellowText {
+    color: #FFBD00;
+}
+
+.socialMedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.socialItem {
+
+}

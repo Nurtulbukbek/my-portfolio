@@ -1,0 +1,27 @@
+.worksPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.worksh3 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+
+    background: #FFBD00;
+    background: linear-gradient(to right, #FFBD00 25%, #FF003D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+}

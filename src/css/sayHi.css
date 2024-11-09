@@ -1,0 +1,44 @@
+.sayHi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hiText {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+}
+
+.photo {
+    margin-top: -50px;
+}
+
+.myPhoto {
+    height: 300px;
+    width: auto;
+    position: relative;
+    top: 73px;
+    right: 23px;
+}
+
+.yellowSpace {
+    background-color: #DAA200;
+    height: 70px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+.letsWork {
+    color: white;
+    background-color: #DAA200;
+    font-weight: bold;
+
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+    padding: 10px 15px;
+}
