@@ -1,10 +1,10 @@
 import './css/App.css'
 import './css/reset.css'
-import Sayhi from './components/sayhi'
-import TechTools from './components/techTools'
-import Works from './components/Works'
-import Reviews from './components/Revievs'
-import Contacts from './components/Contacts'
+import Sayhi from './components/sayhi.jsx'
+import TechTools from './components/techTools.jsx'
+import Works from './components/Works.jsx'
+import Reviews from './components/Revievs.jsx'
+import Contacts from './components/Contacts.jsx'
 
 function App() {
 
