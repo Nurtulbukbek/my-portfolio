@@ -1,6 +1,6 @@
 import "../css/sayHi.css"
 
-function Sayhi() {
+function SayHi() {
 
 
     return(
@@ -22,4 +22,4 @@ function Sayhi() {
     )
 }
 
-export default Sayhi
+export default SayHi
