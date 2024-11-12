@@ -25,3 +25,30 @@
     margin-top: 20px;
 }
 
+.reviewSpot {
+    display: flex;
+    width: 80%;
+    background-color: black;
+    padding: 15px;
+    border-radius: 25px;
+    gap: 15px;
+}
+
+.customerPhoto{
+    height: 150px;
+    border-radius: 25px;
+}
+
+.customerQuote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.customerText {
+    color: #FFBD00;
+}
+
+.customerNick {
+    color: #A259FF;
+}

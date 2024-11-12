@@ -5,10 +5,9 @@ import 'react-slideshow-image/dist/styles.css'
 
 const slideImages = [
     {
-        url: "../review1.png",
-    },
-    {
-        url: "../review1.png",
+        avatar: "../pelmor.png",
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit amet eius.",
+        name: "Pelmor"
     },
 ];
 
@@ -31,7 +30,23 @@ function Reviews() {
                         {slideImages.map((slideImage, index)=> (
                             <div key={index}>
                                 <div className='slider'>
-                                    <img src={slideImage.url} alt="" />
+                                    <div className="reviewSpot">
+                                        <div className="customerAvatar">
+                                            <img src={slideImage.avatar} alt="" className="customerPhoto" />
+                                        </div>
+                                        <div className="customerQuote">
+                                            <div className="customerQuoteText">
+                                                <p className="customerText">
+                                                    "{slideImage.quote}"
+                                                </p>
+                                            </div>
+                                            <div className="customerName">
+                                                <p className="customerNick">
+                                                    {slideImage.name}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         ))} 
