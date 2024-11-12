@@ -12,7 +12,7 @@ function SayHi() {
                         developer
                     </h1>
                     <div className="photo">
-                        <img className="myPhoto" src="./me.png" alt="smth"/>
+                        <img className="myPhoto" src="./me.svg" alt="smth"/>
                         <div className="yellowSpace"></div>
                     </div>
                     <button className="letsWork">Let's work together!</button>

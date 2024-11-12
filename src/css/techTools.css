@@ -31,7 +31,18 @@
     gap: 30px;
 }
 
+.toolItemPhoto {
+    background-color: #FFBD00;
+    height: 57px;
+    width: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
 .toolItem p {
     text-align: center;
     font-size: 12px;
+    margin-top: 5px;
 }
