@@ -19,9 +19,9 @@ function Contacts() {
                             <span className="yellowText">or</span>
                         </h1>
                         <div className="socialMedia">
-                            <img src="../telegram.png" alt="" className="socialItem" />
-                            <a href="https://www.instagram.com/nurtulbek/profilecard/?igsh=MXU5ZW5weDhqNmpzZw=="><img src="../instagram.png" alt="" className="socialItem" /></a>
-                            <a href="https://github.com/Nurtulbukbek"><img src="../github.png" alt="" className="socialItem" /></a>
+                            <img src="../telegram.svg" alt="" className="socialItem" />
+                            <a href="https://www.instagram.com/nurtulbek/profilecard/?igsh=MXU5ZW5weDhqNmpzZw=="><img src="../instagram.svg" alt="" className="socialItem" /></a>
+                            <a href="https://github.com/Nurtulbukbek"><img src="../github.svg" alt="" className="socialItem" /></a>
                         </div>
                     </div>
                 </div>

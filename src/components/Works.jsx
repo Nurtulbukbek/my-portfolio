@@ -14,8 +14,8 @@ function Works() {
                         </h1>
                     </div>
                     <div className="banners">
-                        <a href="https://pasabahce.netlify.app/"><img src="/pasabahce.png" alt="" className="pasabahce" /></a>
-                        <a href="https://nasa-space-app-blush.vercel.app/"><img src="/hackhaton.png" alt="" className="hackhaton" /></a>
+                        <a href="https://pasabahce.netlify.app/"><img src="/pasabahce.svg" alt="" className="pasabahce" /></a>
+                        <a href="https://nasa-space-app-blush.vercel.app/"><img src="/hackaton.svg" alt="" className="hackhaton" /></a>
                     </div>
                 </div>
             </div>
