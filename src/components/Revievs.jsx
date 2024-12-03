@@ -3,6 +3,10 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
+import { motion } from "motion/react"
+import { useInView } from "motion/react"
+import { useRef } from "react"
+
 const slideImages = [
     {
         avatar: "../pelmor.png",
@@ -12,10 +16,16 @@ const slideImages = [
 ];
 
 function Reviews() {
+    const ref = useRef(null)
+    const isInView = useInView(ref, { once: true })
 
     return(
         <>
-            <div className="container">
+            <motion.div className="container"
+            ref={ref}
+            initial={{y: 150}}
+            animate={isInView ? {y: 0} : {}}
+            transition={{ duration: 0.8, ease: "easeOut" }}>
                 <div className="reviewsPart">
                     <div className="textReviews">
                         <h3 className="reviewsh3">
@@ -51,7 +61,7 @@ function Reviews() {
                             </div>
                         ))} 
                 </Slide>
-            </div>
+            </motion.div>
             
         </>
     )
