@@ -1,7 +1,7 @@
 import "../css/techTools.css"
-import { motion } from "motion/react"
-import { useInView } from "motion/react"
-import { useRef } from "react"
+// import { motion } from "motion/react"
+// import { useInView } from "motion/react"
+// import { useRef } from "react"
 
 function TechTools() {
 
@@ -31,17 +31,18 @@ function TechTools() {
                 description: "GIT",
             },
         ]
-        const ref = useRef(null)
-        const isInView = useInView(ref, { once: true })
+        // const ref = useRef(null)
+        // const isInView = useInView(ref, { once: true })
     
     return(
         <>
             <div className="container">
-                <motion.div className="techTools"
-                ref={ref}
-                initial={{y: 150}}
-                animate={isInView ? {y: 0} : {}}
-                transition={{ duration: 0.8, ease: "easeOut" }} >
+                <div className="techTools"
+                // ref={ref}
+                // initial={{y: 150}}
+                // animate={isInView ? {y: 0} : {}}
+                // transition={{ duration: 0.8, ease: "easeOut" }} 
+                >
                     <div className="text">
                         <h3 className="toolsh3">Tech tools</h3>
                         <h1 className="toolsh1">I can work with:</h1>
@@ -61,7 +62,7 @@ function TechTools() {
                             </div>
                         ))}
                     </div>
-                </motion.div>
+                </div>
             </div>
         </>
     )

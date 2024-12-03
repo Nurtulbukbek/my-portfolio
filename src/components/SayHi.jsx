@@ -10,24 +10,24 @@ function SayHi() {
     return(
         <>
             <div className="container" ref={ref}>
-                <motion.div className="sayHi" 
-                ref={ref}
-                initial={{y: 150}}
-                animate={isInView ? {y: 0} : {}}
-                transition={{ duration: 0.8, ease: "easeOut" }} >
+                <div className="sayHi">
                     <h1 className="hiText">
                         Hi! I’m a front-end
                         developer
                     </h1>
-                    <div className="photo">
+                    <motion.div className="photo"
+                    ref={ref}
+                    initial={{y: 50}}
+                    animate={isInView ? {y: 0} : {}}
+                    transition={{ duration: 0.8, ease: "easeOut" }} >
                         <img className="myPhoto" src="./me.svg" alt="smth"/>
                         <div className="yellowSpace"></div>
-                    </div>
+                    </motion.div>
                     <motion.button className="letsWork" 
                         whileHover={{ scale: 1.1 }} 
                         whileTap={{ scale: 0.95 }} >
                             Let's work together!</motion.button>
-                    </motion.div>
+                    </div>
               
             </div>
         </>
