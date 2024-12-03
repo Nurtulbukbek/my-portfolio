@@ -11,7 +11,7 @@ function Works() {
             <div className="container">
                 <motion.div className="worksPart"
                 ref={ref}
-                initial={{y: 150}}
+                initial={{y: 100}}
                 animate={isInView ? {y: 0} : {}}
                 transition={{ duration: 0.8, ease: "easeOut" }} >
                     <div className="textWorks">
