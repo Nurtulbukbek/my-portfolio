@@ -13,7 +13,7 @@ function App() {
       <SayHi />
       <TechTools/>
       <Works/>
-      <Reviews/>
+      {/* <Reviews/> */}
       <Contacts/>
     </>
   )

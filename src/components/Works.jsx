@@ -9,24 +9,38 @@ function Works() {
     return(
         <>
             <div className="container">
-                <motion.div className="worksPart"
-                ref={ref}
-                initial={{y: 100}}
-                animate={isInView ? {y: 0} : {}}
-                transition={{ duration: 0.8, ease: "easeOut" }} >
-                    <div className="textWorks">
+                <div className="worksPart" ref={ref}>
+                    <motion.div className="textWorks" 
+                    ref={ref}
+                    initial={{y: 100}}
+                    animate={isInView ? {y: 0} : {}}
+                    transition={{ duration: 0.8, ease: "easeOut" }}>
                         <h3 className="worksh3">
                             Works
                         </h3>
                         <h1 className="worksh1">
                             My done projects
                         </h1>
-                    </div>
+                    </motion.div>
+
                     <div className="banners">
-                        <a href="https://pasabahce.netlify.app/"><img src="/pasabahce.svg" alt="" className="pasabahce" /></a>
-                        <a href="https://nasa-space-app-blush.vercel.app/"><img src="/hackaton.svg" alt="" className="hackhaton" /></a>
+                        <motion.a href="https://pasabahce.netlify.app/"
+                        ref={ref}
+                        initial={{y: 100}}
+                        animate={isInView ? {y: 0} : {}}
+                        transition={{ duration: 0.8, ease: "easeOut" }}>
+                            <img src="/pasabahce.svg" alt="" className="pasabahce" />
+                        </motion.a>
+
+                        <motion.a href="https://nasa-space-app-blush.vercel.app/"
+                        ref={ref}
+                        initial={{y: 100}}
+                        animate={isInView ? {y: 0} : {}}
+                        transition={{ duration: 0.8, ease: "easeOut" }}>
+                            <img src="/hackaton.svg" alt="" className="hackhaton" />
+                        </motion.a>
                     </div>
-                </motion.div>
+                </div>
             </div>
         </>
     )
