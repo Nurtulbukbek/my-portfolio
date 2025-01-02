@@ -5,6 +5,7 @@ import TechTools from './components/TechTools';
 import Works from './components/Works';
 import Reviews from './components/Revievs';
 import Contacts from './components/Contacts';
+import WhatIDo from './components/WhatIDo';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <SayHi />
       <TechTools/>
       <Works/>
+      <WhatIDo/>
       {/* <Reviews/> */}
       <Contacts/>
     </>

@@ -1,0 +1,52 @@
+.whatIDo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.whatIDoh3 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+
+    background: #FFBD00;
+    background: linear-gradient(to right, #FFBD00 25%, #FF003D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.whatIDoh1 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.techs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+}
+
+.techItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.techItemh1 {
+    background: #FFBD00;
+    background: linear-gradient(to right, #FFBD00 25%, #FF003D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.techItemh3 {
+    text-align: justify;
+    border: 1px solid #FFBD00;
+    padding: 10px;
+    border-radius: 20px;
+}
